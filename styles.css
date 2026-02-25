@@ -1,9 +1,4 @@
-diff --git a/styles.css b/styles.css
-new file mode 100644
-index 0000000000000000000000000000000000000000..f893e132f96f610adf7d4b0310e7cd902d388e0f
---- /dev/null
-+++ b/styles.css
-@@ -0,0 +1,114 @@
+
 +:root {
 +  --bg: #f5f7fb;
 +  --text: #1a1c22;
