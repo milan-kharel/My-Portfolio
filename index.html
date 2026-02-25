@@ -1,0 +1,113 @@
+
++<!DOCTYPE html>
++<html lang="en">
++  <head>
++    <meta charset="UTF-8" />
++    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
++    <title>My Portfolio</title>
++    <link rel="stylesheet" href="styles.css" />
++  </head>
++  <body>
++    <header class="site-header">
++      <nav class="nav container">
++        <a href="#home" class="brand">Your Name</a>
++        <ul class="nav-links">
++          <li><a href="#about">About</a></li>
++          <li><a href="#skills">Skills</a></li>
++          <li><a href="#projects">Projects</a></li>
++          <li><a href="#education">Education</a></li>
++          <li><a href="#contact">Contact</a></li>
++        </ul>
++        <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
++      </nav>
++    </header>
++
++    <main>
++      <section id="home" class="hero container">
++        <p class="tag">Web Developer • CS Student • Problem Solver</p>
++        <h1>Hi, I'm <span>Your Name</span></h1>
++        <p>
++          I build clean, efficient, and user-friendly web applications.
++        </p>
++        <div class="cta-row">
++          <a class="btn" href="#projects">View Projects</a>
++          <a class="btn btn-secondary" href="#contact">Contact Me</a>
++        </div>
++      </section>
++
++      <section id="about" class="container card">
++        <h2>About Me</h2>
++        <p>
++          I am a computer science student passionate about building real-world
++          applications and continuously improving my programming skills.
++        </p>
++      </section>
++
++      <section id="skills" class="container card">
++        <h2>Skills</h2>
++        <div class="skills-grid">
++          <article>
++            <h3>Languages</h3>
++            <p>C, C++, Python, JavaScript</p>
++          </article>
++          <article>
++            <h3>Web</h3>
++            <p>HTML, CSS, React, Node.js</p>
++          </article>
++          <article>
++            <h3>Tools</h3>
++            <p>Git, GitHub, VS Code</p>
++          </article>
++          <article>
++            <h3>Concepts</h3>
++            <p>DSA, OOP, DBMS, Operating Systems</p>
++          </article>
++        </div>
++      </section>
++
++      <section id="projects" class="container card">
++        <h2>Projects</h2>
++        <div class="projects-grid">
++          <article class="project">
++            <h3>To-Do App</h3>
++            <p>Task manager with local storage and filters for productivity.</p>
++            <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
++          </article>
++          <article class="project">
++            <h3>Weather App</h3>
++            <p>Shows live weather with search and clean dashboard UI.</p>
++            <p><strong>Tech:</strong> JavaScript, API, CSS</p>
++          </article>
++          <article class="project">
++            <h3>Student Management System</h3>
++            <p>Manage student records with full CRUD operations.</p>
++            <p><strong>Tech:</strong> Python, MySQL</p>
++          </article>
++        </div>
++      </section>
++
++      <section id="education" class="container card">
++        <h2>Education & Achievements</h2>
++        <p><strong>Bachelor of Computer Science</strong> — Your University (2023–2027)</p>
++        <ul>
++          <li>Completed Web Development Certification (2025)</li>
++          <li>Hackathon Finalist — Campus Tech Fest</li>
++        </ul>
++      </section>
++
++      <section id="contact" class="container card">
++        <h2>Contact</h2>
++        <p>Email: yourname@email.com</p>
++        <p>GitHub: github.com/yourusername</p>
++        <p>LinkedIn: linkedin.com/in/yourusername</p>
++        <a class="btn" href="#" aria-disabled="true">Download Resume</a>
++      </section>
++    </main>
++
++    <footer class="site-footer">
++      <p>© <span id="year"></span> Your Name. Built with HTML, CSS, and JavaScript.</p>
++    </footer>
++
++    <script src="script.js"></script>
++  </body>
++</html>
